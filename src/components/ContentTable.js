@@ -1,7 +1,7 @@
 import React from "react";
+import data from "../data";
 import { Table, Tag, Space } from "antd";
 import "antd/dist/antd.css";
-import data from "../data";
 import { Link, Outlet } from "react-router-dom";
 import AccountData from "./AccountData";
 
@@ -35,8 +35,6 @@ const ContentTable = () => {
       },
     },
   ];
-
-  <Outlet />;
 
   return (
     <div>
